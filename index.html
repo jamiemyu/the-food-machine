@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="client.js"></script> 
+    </head>
+    <body>
+        <div class="food-list-form">
+            <h3>Select ingredients</h3>
+            <form id="meatForm">
+                <input type="radio" name="meatList" value="chicken"/>Chicken</br>
+                <input type="radio" name="meatList" value="beef"/>Beef</br>
+            </form>
+
+            <form id="vegetableForm">
+                <input type="radio" name="vegetableList" value="kale"/>Kale</br>
+                <input type="radio" name="vegetableList" value="arugula"/>Arugula</br>
+            </form>
+            <button id="submitButton" onclick="findRecipe()">Find Recipe</button>
+        </div> 
+    </body>
+</html>
