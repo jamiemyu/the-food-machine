@@ -9,7 +9,7 @@
             <div class="food-list-form">
                 <h3>Select ingredients</h3>
                 <form id="meatForm">
-                    <input type="radio" name="meatList" value="chicken"/>Chicken</br>
+                    <input type="radio" name="meatList" value="chicken%20breast"/>Chicken Breast</br>
                     <input type="radio" name="meatList" value="beef"/>Beef</br>
                     <input type="radio" name="meatList" value="salmon"/>Salmon</br>
                     <input type="radio" name="meatList" value="eggs"/>Eggs</br>
@@ -25,6 +25,7 @@
                 <button id="submitButton" onclick="findRecipe()">Find Recipe</button>
             </div>
         </div>
+        <div id="error-message"></div>
         <div id="results">
             <div id="recipe-title"></div>
             <div id="recipe-img"></div>
