@@ -87,7 +87,7 @@ function clearOldRecipe() {
  * Helper function used to add the new recipe to the page.
  * @param {!String} recipeTitle The title of the recipe.
  * @param {!String} imgUrl The URL to the image associated with the recipe.
- * @param {!Array<String> ingredientsList List of ingredients used in the recipe.
+ * @param {!Array<String>} ingredientsList List of ingredients used in the recipe.
  * @param {!String} recipeLink The URL to the original recipe.
  */
 function addNewRecipe(recipeTitle, imgUrl, ingredientsList, recipeLink) {
